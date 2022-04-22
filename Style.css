@@ -1,0 +1,328 @@
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+header{
+    background-image: url(Images/hero.png);
+    background-size: 100%;
+    background-position: center;
+    color: white;
+    padding: 20px 40px 10px 50px;
+    text-align: center;
+    height: 400px;
+    top: 20px; 
+}
+nav ul{
+    padding:0;
+    list-style-type: none;
+    margin-left: 0px 0px ;
+}
+nav li{
+    display: inline-block;
+    padding: 2px;
+    text-transform:capitalize;
+}
+nav button{
+    background-color: #23a6f0;
+    border-radius: 8px;
+    color: white;
+    width: 170px;
+    height: 40px;
+}
+a{
+    text-decoration: none;
+    color: white;
+    }
+    a:hover{
+    text-decoration: underline;
+    }
+.content{
+    text-transform: capitalize;
+    display:inline-flexbox;
+    justify-content:center;
+    align-items: center;
+    
+}
+.buttons button{
+    border-radius: 40px;
+    background-color: #23a6f0;
+    width: 150px;
+    height: 40px;
+    color: white;
+}
+.buttons button1{
+    border-radius: 40px;
+    background-color: transparent;
+    width: 200px;
+    height: 60px;
+    color: white;
+    border-top: 2px solid white;
+    border-bottom: 2px solid white;
+    border-right: 2px solid white;
+    border-left: 2px solid white;
+}
+.elements1{
+    top:380px;
+    position:absolute;
+    display: flex;
+    justify-content: center;
+align-items: center;
+    padding: 0px 100px;
+}
+.elements1 ion-icon{
+color: #23a6f0;
+}
+.elements1 div{
+    padding: 10px 40px;
+    margin: 2px 5px;
+
+}
+.elements1 p{
+    text-transform: capitalize;
+}
+.life{
+    background-color: white;
+}
+.Peace{
+    background-color: white;
+}
+.satisfaction{
+    background-color: #23a6f0;
+    color: white;
+}
+.satisfaction ion-icon{
+    color: white
+
+}
+.elements2 {
+    display: flex ;
+    justify-content: center;
+align-items: center;
+margin-top: 50px;
+}
+.elements2 ion-icon{
+    color: #23a6f0;
+    size: 16px;
+    }
+.elements2 div{
+    padding: 60px 40px;
+    margin: 2px 5px;
+}
+.elements2 p{
+    text-transform: capitalize;
+}
+.industry{
+    display: grid;
+    /* background-color: rgb(0, 255, 221); */
+}
+.industry p{
+    text-align: center;
+}
+.features1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* background-color: rgb(107, 94, 17); */
+    padding: 30px 90px;
+}
+.features1 p{
+    text-align: center;
+}
+.features1 div{
+    margin: 2px 5px;
+    /* background-color: rgb(68, 211, 168); */
+}
+.features1 img{
+    height: 100px;
+    width: 100px;
+}
+.features1 ion-icon{
+    color:goldenrod;
+    }
+.features2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* background-color: rgb(87, 82, 76); */
+}
+.features2 div{
+    margin: 3px 4px;
+    /* background-color: rgb(243, 77, 193); */
+}
+.features2 img{
+    height: 80%;
+    width: 20%;
+}
+.myform{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to right,rgb(7, 7, 87),#b00cf4);
+}
+.myform button{ 
+    background-image: #23a6f0;
+}
+.price{
+    text-align: center;
+}
+.prices p1{
+    text-transform:uppercase;
+}
+.prices{
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+align-items: center;
+padding-bottom: 40px;
+}
+.prices ul{
+list-style:none ;
+}
+.prices ion-icon{
+    display: flex;
+    color: green;
+}
+.prices div{
+    border-radius: 10px;
+    border-top: 1px solid #23a6f0;
+    border-left: 1px solid #23a6f0;
+    border-bottom: 1px solid #23a6f0;
+    border-right: 1px solid #23a6f0;
+}
+.standard{
+    background-color: #252b42;
+    justify-content: center;
+align-items: center;
+}
+.prices button{
+    background-color: #23a6f0;
+    width: 110px;
+    height: 40px;
+    border-radius: 5px;
+}
+.prices h2{
+    color: #23a6f0;
+}
+.prices h1{
+    color: #23a6f0;
+}
+.prices sup{
+    font-size: 10px;
+}
+.prices sub{
+    font-size: 14px;
+}
+.free{
+    background-color: white;
+    justify-content: center;
+align-items: center;
+}
+.premium{
+    background-color: white;
+justify-content: center;
+align-items: center;
+}
+.mymap{
+background-color: #252b42;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 30px 90px;
+}
+.map{
+    background-image: url(images/pingwig.png);
+background-size: 100%;
+background-repeat: no-repeat;
+} 
+.mymap div{
+    padding: 60px 40px;
+    margin: 2px 5px;
+}
+.pictureform{
+display: flex;
+ /* position: absolute; */
+top: 10px;
+justify-content: center;
+align-items: center;
+background-image: url(images/contact.png);
+    background-size:13%;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+}
+.form{
+    display: grid;
+    left: 220px;
+    background: white;
+    object-fit: cover;
+    position: relative;
+    /* background-color: white; */
+}
+.form input{
+    width: 240px;
+    height: 30px;
+    background: transparent;
+    border-radius: 0px;
+    border: 4px 4px 4px 4px ;
+    color:aliceblue;
+    margin: 30px;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 2px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.form input:focus{
+    outline:none ;
+}
+.form button{
+    background: #23a6f0;
+    width: 240px;
+    height: 30px;
+    border-radius: 4px;
+    text-align: center;
+    text-transform: capitalize;
+
+}
+.form button a{
+    color: white;
+    text-decoration: none;
+}
+.lastwords{
+    display: flex;
+    justify-content: center;
+align-items: center;
+margin-top: 50px;
+    padding: 0px 0px;
+
+    
+}
+.lastwords div{
+    margin: 3px 50px;
+}
+.lastwords button{
+background-color:#23a6f0;
+width: 100px;
+    height: 40px;
+    color: white;
+    border-radius: 7px;
+}
+.list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.list ion-icon{
+    color: #23a6f0;
+    }
+.list ul{
+    list-style: none;
+}
+footer{
+    text-align: center;
+}
+footer ion-icon{
+    color: #23a6f0;
+    }
+    @media screen and (max-width:300px){
+    }
